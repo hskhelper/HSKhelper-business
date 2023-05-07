@@ -13,7 +13,7 @@ import { isMobileScreen } from "@/utils/utils";
 
 import AddIcon from "@/assets/icons/add.svg";
 import AnnouncementIcon from "@/assets/icons/announcement.svg";
-import ChatGptIcon from "@/assets/icons/chatgpt.svg";
+import LiXiaoPeng from "@/assets/icons/lixiaopeng.svg";
 import CloseIcon from "@/assets/icons/close.svg";
 import SettingsIcon from "@/assets/icons/settings.svg";
 
@@ -83,11 +83,11 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
           {wechatOA && (
             <div className={styles["sidebar-sub-title"]}>
               {Locale.Index.SubTitle}{" "}
-              <span className={styles["sidebar-ad"]}>{wechatOA}</span>
+              <span className={styles["sidebar-ad"]}>HSKhelper</span>
             </div>
           )}
           <div className={styles["sidebar-logo"]}>
-            <ChatGptIcon />
+            <LiXiaoPeng />
           </div>
         </div>
 
