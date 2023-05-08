@@ -150,8 +150,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "你好 վ'ᴗ' ի , 我是HSKhelper,你的私人AI助手,请问有什么可以帮到你吗 (●'◡'●)ﾉ",
+    Error: "出错了(ó﹏ò｡) , 请稍后重试吧(◍•ᴗ•◍)ゝ",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,
