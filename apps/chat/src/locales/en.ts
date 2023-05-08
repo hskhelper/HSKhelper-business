@@ -161,8 +161,8 @@ const en: LocaleType = {
   },
   Store: {
     DefaultTopic: "New Conversation",
-    BotHello: "Hello! How can I assist you today?",
-    Error: "Something went wrong, please try again later.",
+    BotHello: "Hello վ'ᴗ' ի, I'm HSKhelper, your personal AI assistant. How may I assist you today? (●'◡'●)ﾉ",
+    Error: "Something went wrong(ó﹏ò｡), please try again later(◍•ᴗ•◍)ゝ.",
     Prompt: {
       History: (content: string) =>
         "This is a summary of the chat history between the AI and the user as a recap: " +
