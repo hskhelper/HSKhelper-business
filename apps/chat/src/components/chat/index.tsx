@@ -18,6 +18,11 @@ import Locale from "@/locales";
 import MenuIcon from "@/assets/icons/menu.svg";
 import BrainIcon from "@/assets/icons/brain.svg";
 import ExportIcon from "@/assets/icons/export.svg";
+// import FacebookIcon from "@/assets/icons/facebook.svg";
+// import InstagramIcon from "@/assets/icons/instagram.svg";
+// import YoutubeIcon from "@/assets/icons/youtube.svg";
+// import TwitterIcon from "@/assets/icons/twitter.svg";
+// import TiktokIcon from "@/assets/icons/tiktok.svg";
 import LoadingIcon from "@/assets/icons/three-dots.svg";
 import SendWhiteIcon from "@/assets/icons/send-white.svg";
 import CopyIcon from "@/assets/icons/copy.svg";
@@ -324,6 +329,18 @@ export function Chat() {
               }}
             />
           </div>
+
+          <div className={styles["window-action-button"]}>
+            <IconButton
+                icon={<ExportIcon />}
+                bordered
+                title={Locale.Chat.Actions.Export}
+                onClick={() => {
+                  window.location.href="http://www.facebook.com";
+                }}
+            />
+          </div>
+
         </div>
       </div>
 

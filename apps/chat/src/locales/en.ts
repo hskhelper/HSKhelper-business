@@ -48,6 +48,7 @@ const en: LocaleType = {
       Copy: "Copy",
       Stop: "Stop",
       Retry: "Retry",
+      Facebook:"facebook",
     },
     Typing: "Typing…",
     Input: (submitKey: string) =>
