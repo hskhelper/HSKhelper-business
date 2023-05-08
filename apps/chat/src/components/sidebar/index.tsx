@@ -83,7 +83,7 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
           {wechatOA && (
             <div className={styles["sidebar-sub-title"]}>
               {Locale.Index.SubTitle}{" "}
-              <span className={styles["sidebar-ad"]}>HSKhelper</span>
+              <span className={styles["sidebar-ad"]}>{wechatOA}</span>
             </div>
           )}
           <div className={styles["sidebar-logo"]}>
