@@ -3,7 +3,7 @@ const title = process.env.NEXT_PUBLIC_TITLE;
 const cn = {
   Index: {
     Title: title || "HSKhelper",
-    SubTitle: "微信公众号搜索：HSKhelper",
+    SubTitle: "微信公众号搜索:",
     Submit: "提交",
     Login: "登录",
     Register: "注册",
