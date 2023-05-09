@@ -83,9 +83,12 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
           {wechatOA && (
             <div className={styles["sidebar-sub-title"]}>
               {Locale.Index.SubTitle}{" "}
-              <span className={styles["sidebar-ad"]}>{wechatOA}</span>
+              <a href="https://mp.weixin.qq.com/s/mxFTwpadw_HAFoo8orBqPw" className={styles["sidebar-ad"]}>{wechatOA}</a>
             </div>
           )}
+          <div className={styles["sidebar-logo"]}>
+            <LiXiaoPeng />
+          </div>
           <div className={styles["sidebar-logo"]}>
             <LiXiaoPeng />
           </div>
