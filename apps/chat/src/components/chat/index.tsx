@@ -18,12 +18,12 @@ import Locale from "@/locales";
 import MenuIcon from "@/assets/icons/menu.svg";
 import BrainIcon from "@/assets/icons/brain.svg";
 import ExportIcon from "@/assets/icons/export.svg";
-import FacebookIcon from "@/assets/icons/facebook.svg";
-import InstagramIcon from "@/assets/icons/instagram.svg";
-import YoutubeIcon from "@/assets/icons/youtube.svg";
-import TwitterIcon from "@/assets/icons/twitter.svg";
-import TiktokIcon from "@/assets/icons/tiktok.svg";
-import VkIcon from "@/assets/icons/vk.svg";
+// import FacebookIcon from "@/assets/icons/facebook.svg";
+// import InstagramIcon from "@/assets/icons/instagram.svg";
+// import YoutubeIcon from "@/assets/icons/youtube.svg";
+// import TwitterIcon from "@/assets/icons/twitter.svg";
+// import TiktokIcon from "@/assets/icons/tiktok.svg";
+// import VkIcon from "@/assets/icons/vk.svg";
 import LoadingIcon from "@/assets/icons/three-dots.svg";
 import SendWhiteIcon from "@/assets/icons/send-white.svg";
 import CopyIcon from "@/assets/icons/copy.svg";
@@ -299,74 +299,74 @@ export function Chat() {
           </div>
 
 
-          {/*    1.    FacebookIcon*/}
-          <div className={styles["window-action-button"]}>
-            <IconButton
-                icon={<FacebookIcon />}
-                bordered
-                title={Locale.Chat.Actions.Facebook}
-                onClick={() => {
-                  window.location.href="https://www.facebook.com/groups/211092064722868/";
-                }}
-            />
-          </div>
+          {/*/!*    1.    FacebookIcon*!/*/}
+          {/*<div className={styles["window-action-button"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<FacebookIcon />}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Facebook}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href="https://www.facebook.com/groups/211092064722868";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
 
-          {/*   2.    Youtube: "Youtube",*/}
-          <div className={styles["window-action-button"]}>
-            <IconButton
-                icon={<YoutubeIcon/>}
-                bordered
-                title={Locale.Chat.Actions.Youtube}
-                onClick={() => {
-                  window.location.href = "https://youtube.com/@HSKhelper";
-                }}
-            />
-          </div>
-          {/*   3.TiktokIcon    */}
-          <div className={styles["window-action-button"]}>
-            <IconButton
-                icon={<TiktokIcon/>}
-                bordered
-                title={Locale.Chat.Actions.Tiktok}
-                onClick={() => {
-                  window.location.href = "https://www.tiktok.com/@hskhelper";
-                }}
-            />
-          </div>
-          {/*   4.    Twitter*/}
-          <div className={styles["window-action-button"]}>
-            <IconButton
-                icon={<TwitterIcon/>}
-                bordered
-                title={Locale.Chat.Actions.Twitter}
-                onClick={() => {
-                  window.location.href = "https://twitter.com/HSKhelper";
-                }}
-            />
-          </div>
-          {/*   5.    VK*/}
-          <div className={styles["window-action-button"]}>
-            <IconButton
-                icon={<VkIcon/>}
-                bordered
-                title={Locale.Chat.Actions.Vk}
-                onClick={() => {
-                  window.location.href = "https://vk.com/hsktop";
-                }}
-            />
-          </div>
+          {/*/!*   2.    Youtube: "Youtube",*!/*/}
+          {/*<div className={styles["window-action-button"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<YoutubeIcon/>}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Youtube}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href = "https://youtube.com/@HSKhelper";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
+          {/*/!*   3.TiktokIcon    *!/*/}
+          {/*<div className={styles["window-action-button"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<TiktokIcon/>}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Tiktok}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href = "https://www.tiktok.com/@hskhelper";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
+          {/*/!*   4.    Twitter*!/*/}
+          {/*<div className={styles["window-action-button"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<TwitterIcon/>}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Twitter}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href = "https://twitter.com/HSKhelper";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
+          {/*/!*   5.    VK*!/*/}
+          {/*<div className={styles["window-action-button"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<VkIcon/>}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Vk}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href = "https://vk.com/hsktop";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
 
-          {/*   6.   Instagram */}
-          <div className={styles["window-action-button-more"]}>
-            <IconButton
-                icon={<InstagramIcon/>}
-                bordered
-                title={Locale.Chat.Actions.Instagram}
-                onClick={() => {
-                  window.location.href = "https://www.instagram.com/hskhelpertop/";
-                }}
-            />
-          </div>
+          {/*/!*   6.   Instagram *!/*/}
+          {/*<div className={styles["window-action-button-more"]}>*/}
+          {/*  <IconButton*/}
+          {/*      icon={<InstagramIcon/>}*/}
+          {/*      bordered*/}
+          {/*      title={Locale.Chat.Actions.Instagram}*/}
+          {/*      onClick={() => {*/}
+          {/*        window.location.href = "https://www.instagram.com/hskhelper.top";*/}
+          {/*      }}*/}
+          {/*  />*/}
+          {/*</div>*/}
 
           <div className={styles["window-action-button"]}>
             <Link href="/pricing">

@@ -13,12 +13,17 @@ import { isMobileScreen } from "@/utils/utils";
 
 import AddIcon from "@/assets/icons/add.svg";
 import AnnouncementIcon from "@/assets/icons/announcement.svg";
-// import LiXiaoPeng from "@/assets/icons/lixiaopeng.svg";
 import Instagram from "@/assets/icons/instagram.svg";
-
 import CloseIcon from "@/assets/icons/close.svg";
 import SettingsIcon from "@/assets/icons/settings.svg";
 
+
+import FacebookIcon from "@/assets/icons/facebook.svg";
+import InstagramIcon from "@/assets/icons/instagram.svg";
+import YoutubeIcon from "@/assets/icons/youtube.svg";
+import TwitterIcon from "@/assets/icons/twitter.svg";
+import TiktokIcon from "@/assets/icons/tiktok.svg";
+import VkIcon from "@/assets/icons/vk.svg";
 import styles from "@/styles/module/home.module.scss";
 
 import Locale from "@/locales";
@@ -91,6 +96,31 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
           <div className={styles["sidebar-logo"]}>
             <Instagram />
           </div>
+
+          <div className={styles["sidebar-icons"]}>
+            {/* 在这里添加6个带有超链接的图标 */}
+            <div className={styles["sidebar-icons"]}>
+              <a href="https://www.facebook.com/groups/211092064722868">
+                <FacebookIcon />
+              </a>
+              <a href="https://youtube.com/@HSKhelper">
+                <YoutubeIcon />
+              </a>
+              <a href="https://www.tiktok.com/@hskhelper">
+                <TiktokIcon />
+              </a>
+              <a href="https://twitter.com/HSKhelper">
+                <TwitterIcon />
+              </a>
+              <a href="https://vk.com/hsktop">
+                <VkIcon />
+              </a>
+              <a href="https://www.instagram.com/hskhelper.top">
+                <InstagramIcon />
+              </a>
+            </div>
+          </div>
+
         </div>
 
         <div
