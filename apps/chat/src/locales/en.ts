@@ -48,7 +48,12 @@ const en: LocaleType = {
       Copy: "Copy",
       Stop: "Stop",
       Retry: "Retry",
-      Facebook:"facebook",
+      Facebook: "facebook",
+      Instagram: "Instagram",
+      Tiktok: "Tiktok",
+      Twitter: "Twitter",
+      Youtube: "Youtube",
+      Vk: "Vk",
     },
     Typing: "Typing…",
     Input: (submitKey: string) =>
