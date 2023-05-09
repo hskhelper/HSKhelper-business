@@ -5,7 +5,7 @@ const title = process.env.NEXT_PUBLIC_TITLE;
 const en: LocaleType = {
   Index: {
     Title: title || "HSKhelper.top",
-    SubTitle: "Click the icons below to follow us:",
+    SubTitle: "Click the icons below to follow us",
     Submit: "Submit",
     Login: "Login",
     Register: "Registration",

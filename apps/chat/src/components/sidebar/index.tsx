@@ -19,6 +19,7 @@ import SettingsIcon from "@/assets/icons/settings.svg";
 
 
 import FacebookIcon from "@/assets/icons/facebook.svg";
+import WechatIcon from "@/assets/icons/wechat.svg";
 import InstagramIcon from "@/assets/icons/instagram.svg";
 import YoutubeIcon from "@/assets/icons/youtube.svg";
 import TwitterIcon from "@/assets/icons/twitter.svg";
@@ -87,12 +88,9 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
       >
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>{Locale.Index.Title}</div>
-          {wechatOA && (
             <div className={styles["sidebar-sub-title"]}>
-              {Locale.Index.SubTitle}{" "}
-              <a href="https://mp.weixin.qq.com/s/mxFTwpadw_HAFoo8orBqPw" className={styles["sidebar-ad"]}>{wechatOA}</a>
+              {Locale.Index.SubTitle}
             </div>
-          )}
           <div className={styles["sidebar-logo"]}>
             <Instagram />
           </div>
@@ -118,6 +116,10 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
               <a href="https://www.instagram.com/hskhelper.top">
                 <InstagramIcon />
               </a>
+              <a href="https://mp.weixin.qq.com/s/mxFTwpadw_HAFoo8orBqPw">
+                <WechatIcon />
+              </a>
+
             </div>
           </div>
 
