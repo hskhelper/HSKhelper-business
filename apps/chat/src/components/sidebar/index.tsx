@@ -13,7 +13,9 @@ import { isMobileScreen } from "@/utils/utils";
 
 import AddIcon from "@/assets/icons/add.svg";
 import AnnouncementIcon from "@/assets/icons/announcement.svg";
-import LiXiaoPeng from "@/assets/icons/lixiaopeng.svg";
+// import LiXiaoPeng from "@/assets/icons/lixiaopeng.svg";
+import Instagram from "@/assets/icons/instagram.svg";
+
 import CloseIcon from "@/assets/icons/close.svg";
 import SettingsIcon from "@/assets/icons/settings.svg";
 
@@ -87,10 +89,7 @@ export function Sidebar({ children }: { children: React.ReactNode }) {
             </div>
           )}
           <div className={styles["sidebar-logo"]}>
-            <LiXiaoPeng />
-          </div>
-          <div className={styles["sidebar-logo"]}>
-            <LiXiaoPeng />
+            <Instagram />
           </div>
         </div>
 
