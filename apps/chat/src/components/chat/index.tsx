@@ -357,7 +357,7 @@ export function Chat() {
           </div>
 
           {/*   6.   Instagram */}
-          <div className={styles["window-action-button"]}>
+          <div className={styles["window-action-button-more"]}>
             <IconButton
                 icon={<InstagramIcon/>}
                 bordered
