@@ -19,6 +19,7 @@ import SettingsIcon from "@/assets/icons/settings.svg";
 
 
 import FacebookIcon from "@/assets/icons/facebook.svg";
+import HSKIcon from "@/assets/icons/4848.svg";
 import WechatIcon from "@/assets/icons/wechat.svg";
 import InstagramIcon from "@/assets/icons/instagram.svg";
 import YoutubeIcon from "@/assets/icons/youtube.svg";
@@ -92,7 +93,7 @@ export function Sidebar({children}: { children: React.ReactNode }) {
                         {Locale.Index.SubTitle}
                     </div>
                     <div className={styles["sidebar-logo"]}>
-                        <Instagram/>
+                        <HSKIcon/>
                     </div>
 
                     <div className={styles["sidebar-icons"]}>
