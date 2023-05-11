@@ -40,7 +40,7 @@ const en: LocaleType = {
     ChatItemCount: (count: number) => `${count} messages`,
   },
   Chat: {
-    SubTitle: (count: number) => `${count} messages with ChatGPT`,
+    SubTitle: (count: number) => `${count} messages with HSKhelper`,
     Actions: {
       ChatList: "Go To Chat List",
       CompressedHistory: "Compressed History Memory Prompt",
@@ -144,6 +144,15 @@ const en: LocaleType = {
       Title: "API Key",
       SubTitle: "Use your key to ignore access code limit",
       Placeholder: "OpenAI API Key",
+    },
+    Usage: {
+      Title: "Account Balance",
+      SubTitle(used: any, total: any) {
+        return `Used this month $${used}, subscription $${total}`;
+      },
+      IsChecking: "Checking...",
+      Check: "Check",
+      NoAccess: "Enter API Key to check balance",
     },
     AccessCode: {
       Title: "Access Code",

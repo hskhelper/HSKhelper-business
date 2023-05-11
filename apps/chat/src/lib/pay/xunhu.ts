@@ -97,7 +97,7 @@ export async function startPay({
     appid: appId,
     trade_order_id: orderId,
     total_fee: price,
-    title: title ?? "ChatGPT-Admin-Web",
+    title: title ?? "HSKhelper",
     time: Math.floor(Date.now() / 1000),
     notify_url: `${callbackDomain}/api/callback`,
     return_url: `${domain}`, // After the user has successfully made the payment, we will automatically redirect the user's browser to this URL.

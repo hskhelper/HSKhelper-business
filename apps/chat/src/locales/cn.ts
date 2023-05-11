@@ -34,7 +34,7 @@ const cn = {
     ChatItemCount: (count: number) => `${count} 条对话`,
   },
   Chat: {
-    SubTitle: (count: number) => `与 ChatGPT 的 ${count} 条对话`,
+    SubTitle: (count: number) => `与 HSKhelper 的 ${count} 条对话`,
     Actions: {
       ChatList: "查看消息列表",
       CompressedHistory: "查看压缩后的历史 Prompt",
@@ -132,13 +132,22 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过受控访问限制",
+      SubTitle: "您也可以选择使用自己注册的API Key，绑定后无需输入密码也能使用",
       Placeholder: "OpenAI API Key",
     },
+    Usage: {
+      Title: "余额查询",
+      SubTitle(used: any, total: any) {
+        return `本月已使用 $${used}，订阅总额 $${total}`;
+      },
+      IsChecking: "正在检查…",
+      Check: "重新检查",
+      NoAccess: "输入 API Key 或访问密码查看余额",
+    },
     AccessCode: {
-      Title: "访问码",
-      SubTitle: "现在是受控访问状态",
-      Placeholder: "请输入访问码",
+      Title: "访问密码",
+      SubTitle: "已开启加密访问",
+      Placeholder: "请输入访问密码",
     },
     Model: "模型 (model)",
     Temperature: {

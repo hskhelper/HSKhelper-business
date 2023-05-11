@@ -9,7 +9,7 @@ export default async function sendEmail(to: string, code: string | number) {
     apikey: apiKey,
     from: senderEmail,
     to: to,
-    subject: "[ChatGPT-Admin-Web] 激活码",
+    subject: "[HSKhelper] 激活码",
     bodyHtml: `您的激活码是：${code}`,
   };
 

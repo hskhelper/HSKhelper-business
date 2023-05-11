@@ -13,7 +13,7 @@ export default async function sendEmail(
   const url = `https://api.mailgun.net/v3/${domain}/messages`;
 
   const formData = new URLSearchParams();
-  formData.append("from", `ChatGPT <no-reply@${domain}>`);
+  formData.append("from", `HSKhelper <no-reply@${domain}>`);
   to.forEach((recipient) => formData.append("to", recipient));
   formData.append("subject", `Your activation code: ${code}`);
   formData.append("template", "verification_code");

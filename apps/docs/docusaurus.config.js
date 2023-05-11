@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "ChatGPT-Admin-Web",
+  title: "HSKhelper",
   tagline: "",
   favicon: "img/icon.svg",
 
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "AprilNEA", // Usually your GitHub org/user name.
-  projectName: "ChatGPT-Admin-Web", // Usually your repo name.
+  projectName: "HSKhelper", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -62,9 +62,9 @@ const config = {
       // Replace with your project's social card
       image: "img/demo2.png",
       navbar: {
-        title: "ChatGPT-Admin-Web",
+        title: "HSKhelper",
         logo: {
-          alt: "ChatGPT-Admin-Web",
+          alt: "HSKhelper",
           src: "img/icon.svg",
         },
         items: [
