@@ -18,7 +18,7 @@ const DEFAULT_CONFIG: ChatConfig = {
   sendBotMessages: true as boolean,
   submitKey: SubmitKey.Enter as SubmitKey,
   avatar: "1f603",
-  theme: Theme.Auto as Theme,
+  theme: Theme.Light as Theme,
   tightBorder: false,
 
   modelConfig: {

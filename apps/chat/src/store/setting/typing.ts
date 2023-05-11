@@ -1,4 +1,4 @@
-export type Model = "gpt-3.5-turbo" | "gpt-4" | "newbing";
+export type Model = "gpt-3.5-turbo" ;
 
 export enum SubmitKey {
   Enter = "Enter",
@@ -9,9 +9,10 @@ export enum SubmitKey {
 }
 
 export enum Theme {
+  Light = "light",
   Auto = "auto",
   Dark = "dark",
-  Light = "light",
+
 }
 
 export interface ChatConfig {
