@@ -6,8 +6,8 @@ import "@/styles/prism.scss";
 import { Sidebar } from "@/components/sidebar";
 
 export const metadata = {
-  title: "ChatGPT",
-  description: "Your personal ChatGPT Bot.",
+  title: "HSKhelper",
+  description: "Your personal HSK helper.",
 };
 
 export default function ChatLayout({
